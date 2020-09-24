@@ -18,6 +18,6 @@ The regular expression accounts for common character substitutions and repeated 
 
 ## Example
 
-Trying to ban: ['apple', 'banana', 'cherry', 'grape', 'lemon', 'orange', 'peach', 'watermelon'] results in the following regular expression:
+Trying to ban ['apple', 'banana', 'cherry', 'grape', 'lemon', 'orange', 'peach', 'watermelon'] results in the following x-bot command and regular expression:
 
 x.regex \b.\*[aA@]+[pP]+[pP]+[lL]+[eE3]+.\*\b|\b.\*[bB8]+[aA@]+[nN]+[aA@]+[nN]+[aA@]+.\*\b|\b.\*[cC]+[hH]+[eE3]+[rR]+[rR]+[yY]+.\*\b|\b.\*[g69]+[rR]+[aA@]+[pP]+[eE3]+.\*\b|\b.\*[lL]+[eE3]+[mM]+[oO0]+[nN]+.\*\b|\b.\*[oO0]+[rR]+[aA@]+[nN]+[g69]+[eE3]+.\*\b|\b.\*[pP]+[eE3]+[aA@]+[cC]+[hH]+.\*\b|\b.\*[pP]+[eE3]+[aA@]+[rR]+.\*\b|\b.\*[wW]+[aA@]+[tT7]+[eE3]+[rR]+[mM]+[eE3]+[lL]+[oO0]+[nN]+.\*\b
