@@ -33,7 +33,7 @@ with open ('words.txt', 'r') as infile:
     # list of regular expressions used to ban specific words
     rules = []
     
-    # word to be band
+    # word to be banned
     word = infile.readline().strip()
 
     # read each word in words.txt
