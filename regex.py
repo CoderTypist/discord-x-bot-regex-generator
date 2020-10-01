@@ -52,9 +52,9 @@ with open ('words.txt', 'r') as infile:
             if subs.get(c):
                 regex = regex + subs[c] + '+'
             
-            # if the letter is not in the hash, append it to the regular epxression as is
+            # if the letter is not in the hash, append it to the regular expression as is
             else:
-                regex = regex + c
+                regex = regex + c + '+'
         
         # match with anything after the word
         regex = regex + '.*'
